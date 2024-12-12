@@ -1,0 +1,12 @@
+from dotenv import load_dotenv
+import os
+
+# Load the .env file
+load_dotenv()
+
+# Print all environment variables (for debugging purposes)
+print("Environment Variables:", os.environ)
+
+# Access the API key
+api_key = os.getenv("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")
+print("API Key:", api_key)
