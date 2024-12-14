@@ -12,8 +12,15 @@ pip install streamlit langchain openai faiss-cpu beautifulsoup4 requests python-
 Ensure the following files are in the same directory:
 
 main.py (your Streamlit app script).
+
 faiss.py (optional FAISS-related logic).
+
+
 .env (containing your OpenAI API key).
+```
+OPENAI_API_KEY=your-api-key-here
+
+```
 
 
 3. Run the Streamlit App
